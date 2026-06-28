@@ -123,9 +123,9 @@ A second mistake avoided: using the raw `Profit Margin` field as the label, whic
 - Reference line 1: Constant = 0 on profit axis, orange dashed (break-even line)
 - Reference line 2: Constant = 0.2 on discount axis, orange dotted, labelled "20% Discount Threshold"
 
-**Design principle applied**: Letting the data speak. The 20% reference line was added because the scatter shape suggested it visually — the loss-making dots cluster to its right. Annotating that threshold makes the insight explicit. The category colour reveals that Furniture (blue dots) is overrepresented in the loss zone.
+**Design principle applied**: Letting the data speak. The 20% reference line was added because the scatter shape suggested it visually, the loss-making dots cluster to its right. Annotating that threshold makes the insight explicit. The category colour reveals that Furniture (blue dots) is overrepresented in the loss zone.
 
-**Mistake avoided**: Aggregating discount and profit into category averages. That would have shown three dots instead of 4,200, hiding the entire point of the chart. The Order Id was put on Detail to disaggregate at the order level (an early version of the chart had only three dots because of default aggregation — fixed by adding Order Id to Detail).
+**Mistake avoided**: Aggregating discount and profit into category averages. That would have shown three dots instead of 4,200, hiding the entire point of the chart. The Order Id was put on Detail to disaggregate at the order level (an early version of the chart had only three dots because of default aggregation fixed by adding Order Id to Detail).
 
 ---
 

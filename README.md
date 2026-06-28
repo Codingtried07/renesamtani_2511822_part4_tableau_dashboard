@@ -1,6 +1,6 @@
 ## Business Problem Summary
 
-The retail leadership team needed an executive-level dashboard to monitor performance across seven key areas: sales trends, regional performance, category profitability, customer segment behaviour, shipping performance, discount impact, and return patterns. The goal was not a collection of charts but a coherent visual story that enables leadership to identify risks and opportunities and take action — with all critical filters available interactively.
+The retail leadership team needed an executive-level dashboard to monitor performance across seven key areas: sales trends, regional performance, category profitability, customer segment behaviour, shipping performance, discount impact, and return patterns. The goal was not a collection of charts but a coherent visual story that enables leadership to identify risks and opportunities and take action with all critical filters available interactively.
 
 ## Dataset Description
 
@@ -50,30 +50,30 @@ Seven calculated fields are created in Tableau, plus three KPI helper fields.
 ## Filters and Interactions
 
 ### Dashboard Filters (interactive, apply to all views)
-- **Region** — Multi-select filter (North / South / East / West)
-- **Category** — Multi-select filter (Furniture / Office Supplies / Technology)
-- **Customer Segment** — Single-select filter (Consumer / Corporate / Home Office)
-- **Date Range** — Continuous date slider (Jan 2024 – Dec 2025)
-- **Ship Mode** — Multi-select filter (Same Day / First Class / Second Class / Standard Class)
+- **Region** : Multi-select filter (North / South / East / West)
+- **Category** : Multi-select filter (Furniture / Office Supplies / Technology)
+- **Customer Segment** : Single-select filter (Consumer / Corporate / Home Office)
+- **Date Range** : Continuous date slider (Jan 2024 – Dec 2025)
+- **Ship Mode** : Multi-select filter (Same Day / First Class / Second Class / Standard Class)
 
 ## Key Business Insights
 
 1. **South is the largest regional market** (₹64.7M sales, 1,210 orders), but East achieves the best margin (15.6%).
-2. **Technology drives 84% of total profit** (18.2% margin) — the business is heavily concentrated in one category.
+2. **Technology drives 84% of total profit** (18.2% margin) the business is heavily concentrated in one category.
 3. **Furniture's 6.9% margin** is critically thin; Tables and Bookcases generate negative profit at 25–30% discount.
-4. **Discounts above 20% destroy value** — orders above 30% discount average a loss of ₹1,601 per transaction.
+4. **Discounts above 20% destroy value** orders above 30% discount average a loss of ₹1,601 per transaction.
 5. **Home Office is the most profitable segment** (₹11.6M profit, 15.5% margin).
-6. **15.9% of orders (666) face delivery delays of 6+ days**, representing a customer satisfaction risk.
+6. **15.9% of orders (666) face delivery delays of 6+ days** representing a customer satisfaction risk.
 7. **Furniture return rate is 7.67%**, more than double Technology's 3.03%, compounding margin problems.
-8. **Office Supplies is undermonetised** — highest order count (1,669) but lowest revenue (₹11.5M).
+8. **Office Supplies is undermonetised** highest order count (1,669) but lowest revenue (₹11.5M).
 9. **31–35% discount band (64 orders)** is unprofitable.
 
 ## Dashboard Story Summary
 
 The business is growing and profitable at the headline level (₹217M sales, 15.3% margin), but three structural issues require leadership attention:
-1. **Technology concentration (84% of profit)** — a single-point strategic risk. Diversification is needed.
-2. **Uncontrolled discounting** — a linear and destructive relationship between discount depth and profitability, with a hard-stop needed at 25%.
-3. **Furniture returns and thin margins** — the second-largest category is chronically underperforming and has double the return rate of Technology.
+1. **Technology concentration (84% of profit)** a single-point strategic risk. Diversification is needed.
+2. **Uncontrolled discounting** a linear and destructive relationship between discount depth and profitability, with a hard-stop needed at 25%.
+3. **Furniture returns and thin margins** the second-largest category is chronically underperforming and has double the return rate of Technology.
 
 The South region and Home Office segment are the business's strongest performing units. The East region's margin discipline should be benchmarked across all regions. Office Supplies represents the clearest growth opportunity, high purchase frequency but very low average order value.
 
